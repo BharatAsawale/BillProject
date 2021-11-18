@@ -32,6 +32,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+		<repository>
+			<id>local</id>
+			<layout>default</layout>
+			<url>file:///C:/Users/BHARAT/.m2/repository/</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
